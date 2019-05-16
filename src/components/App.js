@@ -1,19 +1,21 @@
 import React from 'react';
-// import ProductList from './ProductList';
-// import Panel from './Panel';
-import Dropdown from './Dropdown/Dropdown';
-// import Button from './Button/Button';
-// import products from '../products';
+import Profile from './Profile/Profile';
+
+const user = {
+  name: 'Jacques Gluke',
+  tag: '@jgluke',
+  location: 'Ocho Rios, Jamaica',
+  avatar: 'https://s3.amazonaws.com/uifaces/faces/twitter/r_oy/128.jpg',
+  stats: {
+    followers: 5603,
+    views: 4827,
+    likes: 1308,
+  },
+};
 
 const App = () => (
   <div>
-    {/* <Button label="Click me!" disabled/> */}
-
-    <Dropdown isOpen />
-
-    {/* <Panel title="Top Products">
-		<ProductList items={products} />
-	</Panel> */}
+    <Profile user={user} />
   </div>
 );
 

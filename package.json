@@ -4,10 +4,11 @@
   "private": true,
   "dependencies": {
     "classnames": "^2.2.6",
+    "gh-pages": "^2.0.1",
+    "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1",
-    "prop-types": "^15.7.2",
     "styled-components": "^4.2.0"
   },
   "scripts": {
@@ -17,7 +18,9 @@
     "eject": "react-scripts eject",
     "lint": "eslint src/**/*.js",
     "lint:fix": "eslint src/**/*.js --fix",
-    "lint:format": "prettier src/**/*.{js,css,json} --write"
+    "lint:format": "prettier src/**/*.{js,css,json} --write",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -45,5 +48,6 @@
     "json-loader": "^0.5.7",
     "lint-staged": "^8.1.7",
     "prettier": "^1.17.1"
-  }
+  },
+  "homepage": "https://bitalikk.github.io/Rreact_GoIt/"
 }
