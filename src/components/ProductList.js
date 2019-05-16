@@ -6,18 +6,18 @@ const ProductList = ({ items = [] }) => (
   <ul>
     {items.map(item => (
       <li key={item.id}>
-				<Product {...item} />
+        <Product {...item} />
       </li>
     ))}
-    </ul>
+  </ul>
 );
 
 ProductList.propTypes = {
-	items: PropTypes.arrayOf(
-		PropTypes.shape({
-			id: PropTypes.string.isRequired,
-		})
-	)
-}
+  items: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.string.isRequired,
+    }),
+  ).isRequired,
+};
 
 export default ProductList;

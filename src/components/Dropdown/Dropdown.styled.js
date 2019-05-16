@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 
-
 export const Container = styled.div`
   position: relative;
   display: inline-block;
@@ -25,7 +24,6 @@ export const DropdownContainer = styled.div`
   border: 1px solid rgba(0, 0, 0, 0.14);
 `;
 
-
 export const List = styled.ul`
   list-style: none;
   margin: 0;
@@ -38,5 +36,5 @@ export const ListItem = styled.li`
   :hover {
     background-color: rgba(0, 0, 0, 0.14);
     cursor: pointer;
-}
+  }
 `;
