@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.js": "/Rreact_GoIt/static/js/main.dd910d21.chunk.js",
-    "main.js.map": "/Rreact_GoIt/static/js/main.dd910d21.chunk.js.map",
+    "main.css": "/Rreact_GoIt/static/css/main.25695906.chunk.css",
+    "main.js": "/Rreact_GoIt/static/js/main.2ea75c44.chunk.js",
+    "main.js.map": "/Rreact_GoIt/static/js/main.2ea75c44.chunk.js.map",
     "runtime~main.js": "/Rreact_GoIt/static/js/runtime~main.1afb7d5b.js",
     "runtime~main.js.map": "/Rreact_GoIt/static/js/runtime~main.1afb7d5b.js.map",
-    "static/js/2.7f73a925.chunk.js": "/Rreact_GoIt/static/js/2.7f73a925.chunk.js",
-    "static/js/2.7f73a925.chunk.js.map": "/Rreact_GoIt/static/js/2.7f73a925.chunk.js.map",
+    "static/js/2.269050a8.chunk.js": "/Rreact_GoIt/static/js/2.269050a8.chunk.js",
+    "static/js/2.269050a8.chunk.js.map": "/Rreact_GoIt/static/js/2.269050a8.chunk.js.map",
     "index.html": "/Rreact_GoIt/index.html",
-    "precache-manifest.1a4ba328ea2b41418837414b230d3342.js": "/Rreact_GoIt/precache-manifest.1a4ba328ea2b41418837414b230d3342.js",
-    "service-worker.js": "/Rreact_GoIt/service-worker.js"
+    "precache-manifest.3fb5e7c47e9ef9c7ac2e1f81149a5915.js": "/Rreact_GoIt/precache-manifest.3fb5e7c47e9ef9c7ac2e1f81149a5915.js",
+    "service-worker.js": "/Rreact_GoIt/service-worker.js",
+    "static/css/main.25695906.chunk.css.map": "/Rreact_GoIt/static/css/main.25695906.chunk.css.map"
   }
 }
